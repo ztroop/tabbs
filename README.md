@@ -1,3 +1,5 @@
+[![Rust](https://github.com/ztroop/tabbs/actions/workflows/rust.yml/badge.svg)](https://github.com/ztroop/tabbs/actions/workflows/rust.yml)
+
 # tabbs
 
 A command line tool for displaying comma-separated data as a table in the terminal.
