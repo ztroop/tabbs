@@ -1,6 +1,6 @@
 # tabbs
 
-`tabbs` is a command line tool for displaying comma-separated data as a table in the terminal.
+A command line tool for displaying comma-separated data as a table in the terminal.
 
 ## Features
 
@@ -21,7 +21,7 @@ $ cargo install --path .
 
 ## Usage
 
-To use tabb, you need to pipe input data to the tool, specifying the column names with the -c flag:
+To use tabb, you need to pipe input data to the tool, specifying the column names with the `-c` flag:
 
 ```sh
 $ echo "jack,35,neat\n\
