@@ -1,7 +1,17 @@
 [package]
-name = "padds"
-version = "0.1.0"
+name = "tabbs"
+version = "0.2.0"
 edition = "2021"
+description = "A command line tool for displaying delimiter-separated data as a table in the terminal"
+license = "MIT"
+repository = "https://github.com/ztroop/tabbs"
+homepage = "https://github.com/ztroop/tabbs"
+keywords = ["cli", "table", "csv", "terminal", "formatting"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
+clap = { version = "4.4", features = ["derive"] }
 colored = "2.0"
+
+[dev-dependencies]
+tempfile = "3"
