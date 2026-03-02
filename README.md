@@ -21,7 +21,7 @@ To install tabbs, you will need [Rust and Cargo](https://www.rust-lang.org/tools
 cargo install --path .
 ```
 
-Or install from crates.io (when published):
+Or install from crates.io:
 
 ```sh
 cargo install tabbs
